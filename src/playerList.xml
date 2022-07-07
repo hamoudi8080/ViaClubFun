@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PlayerList>
+  <players>
+    <number>1</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Christopher Gadgaard</name>
+    <positions>Striker</positions>
+  </players>
+  <players>
+    <number>2</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Vlad Lazar</name>
+    <positions>Goalkeeper</positions>
+    <positions>Full-Back</positions>
+  </players>
+  <players>
+    <number>3</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Miguel Alessio</name>
+    <positions>Defensive Midfielder</positions>
+  </players>
+  <players>
+    <number>4</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Julie Virguez</name>
+    <positions>Centre-Back</positions>
+    <positions>Forward</positions>
+  </players>
+  <players>
+    <number>5</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Hamoudi Resho</name>
+    <positions>Winger</positions>
+  </players>
+  <players>
+    <number>10</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Allan Henriksen</name>
+    <positions>Attacking Midfielder</positions>
+  </players>
+  <players>
+    <number>25</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Mona Andersen</name>
+    <positions>Centre-Back</positions>
+    <positions>Winger</positions>
+  </players>
+  <players>
+    <number>33</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Jakob Rasmussen</name>
+    <positions>Sweeper</positions>
+    <positions>Winger</positions>
+  </players>
+  <players>
+    <number>99</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Io Odderskov</name>
+    <positions>Central Midfielder</positions>
+  </players>
+  <players>
+    <number>69</number>
+    <benchedInARow>0</benchedInARow>
+    <name>John Dillermand</name>
+    <positions>Defensive Midfielder</positions>
+  </players>
+  <players>
+    <number>20</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Michael Laudrup</name>
+    <positions>Full-Back</positions>
+  </players>
+  <players>
+    <number>30</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Nicklas Bendtner</name>
+    <positions>Full-Back</positions>
+  </players>
+  <players>
+    <number>31</number>
+    <benchedInARow>0</benchedInARow>
+    <name>Peter Schmeichel</name>
+    <positions>Centre-Back</positions>
+  </players>
+</PlayerList>

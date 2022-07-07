@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" userData="VIA Club Management System" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AddPlayerViewController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" onAction="#handleActions" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="About">
+            <items>
+              <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" onAction="#handleActions" text="Player View" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="helpMenuItem" mnemonicParsing="false" onAction="#handleActions" text="Client Support" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox alignment="CENTER" prefHeight="202.0" prefWidth="800.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField fx:id="nameField" onAction="#handleActions" onKeyTyped="#checkForInput" onMouseExited="#checkForInput" onMouseMoved="#checkForInput" prefHeight="26.0" prefWidth="200.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Jersey Number">
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="numberBox" onAction="#handleActions" prefHeight="25.0" prefWidth="59.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="334.0" prefWidth="800.0" spacing="100.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="226.0" prefWidth="196.0" spacing="20.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Positions" wrappingWidth="60.31770706176758">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <ListView fx:id="positionsList" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" prefHeight="146.0" prefWidth="151.0" spacing="10.0">
+               <children>
+                  <ComboBox fx:id="positionsBox" editable="true" onAction="#handleActions" prefHeight="25.0" prefWidth="160.0" promptText="Positions">
+                     <VBox.margin>
+                        <Insets top="100.0" />
+                     </VBox.margin></ComboBox>
+                  <HBox prefHeight="47.0" prefWidth="157.0">
+                     <children>
+                        <ButtonBar prefHeight="47.0" prefWidth="148.0">
+                          <buttons>
+                              <Button fx:id="addButton" disable="true" mnemonicParsing="false" onAction="#handleActions" text="Add" />
+                              <Button fx:id="removeButton" disable="true" mnemonicParsing="false" onAction="#handleActions" text="Remove" />
+                          </buttons>
+                        </ButtonBar>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </HBox>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="saveButton" mnemonicParsing="false" onAction="#handleActions" text="Save" />
+            <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#handleActions" text="Cancel" />
+        </buttons>
+         <VBox.margin>
+            <Insets right="10.0" />
+         </VBox.margin>
+      </ButtonBar>
+   </children>
+</VBox>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Match>
+  <date>
+    <month>6</month>
+    <year>2021</year>
+    <day>3</day>
+  </date>
+  <scoreHomeTeam>0</scoreHomeTeam>
+  <bench>
+    <players>
+      <number>30</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Nicklas Bendtner</name>
+      <positions>Full-Back</positions>
+    </players>
+    <players>
+      <number>31</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Peter Schmeichel</name>
+      <positions>Centre-Back</positions>
+    </players>
+    <players>
+      <number>15</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Diego Maradona </name>
+      <positions>Sweeper</positions>
+    </players>
+    <players>
+      <number>17</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Lionel Messi</name>
+      <positions>Striker</positions>
+    </players>
+    <players>
+      <number>9</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Franz Beckenbauer</name>
+      <positions>Centre-Back</positions>
+    </players>
+  </bench>
+  <matchType>League</matchType>
+  <opponent>FCK</opponent>
+  <lineUp>
+    <players>
+      <number>1</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Christopher Gadgaard</name>
+      <positions>Striker</positions>
+    </players>
+    <players>
+      <number>2</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Vlad Lazar</name>
+      <positions>Goalkeeper</positions>
+      <positions>Full-Back</positions>
+    </players>
+    <players>
+      <number>3</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Miguel Alessio</name>
+      <positions>Defensive Midfielder</positions>
+    </players>
+    <players>
+      <number>4</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Julie Virguez</name>
+      <positions>Centre-Back</positions>
+      <positions>Forward</positions>
+    </players>
+    <players>
+      <number>5</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Hamoudi Resho</name>
+      <positions>Winger</positions>
+    </players>
+    <players>
+      <number>10</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Allan Henriksen</name>
+      <positions>Attacking Midfielder</positions>
+    </players>
+    <players>
+      <number>25</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Mona Andersen</name>
+      <positions>Centre-Back</positions>
+      <positions>Winger</positions>
+    </players>
+    <players>
+      <number>33</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Jakob Rasmussen</name>
+      <positions>Sweeper</positions>
+      <positions>Winger</positions>
+    </players>
+    <players>
+      <number>99</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Io Odderskov</name>
+      <positions>Central Midfielder</positions>
+    </players>
+    <players>
+      <number>69</number>
+      <benchedInARow>0</benchedInARow>
+      <name>John Dillermand</name>
+      <positions>Defensive Midfielder</positions>
+    </players>
+    <players>
+      <number>20</number>
+      <benchedInARow>0</benchedInARow>
+      <name>Michael Laudrup</name>
+      <positions>Full-Back</positions>
+    </players>
+  </lineUp>
+  <startTime>
+    <hour>19</hour>
+    <minute>30</minute>
+    <second>0</second>
+  </startTime>
+  <isAwayGame>false</isAwayGame>
+  <endTime>
+    <hour>21</hour>
+    <minute>30</minute>
+    <second>0</second>
+  </endTime>
+  <scoreOpponent>0</scoreOpponent>
+</Match>

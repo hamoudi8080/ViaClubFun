@@ -1,0 +1,13 @@
+Christopher Gadgaard,1
+Vlad Lazar,2
+Miguel Alessio,3
+Julie Virguez,4
+Hamoudi Resho,5
+Allan Henriksen,10
+Mona Andersen,25
+Jakob Rasmussen,33
+Io Odderskov,99
+John Dillermand,69
+Michael Laudrup,20
+Nicklas Bendtner,30
+Peter Schmeichel,31
